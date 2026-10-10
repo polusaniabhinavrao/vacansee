@@ -1,0 +1,111 @@
+:root {
+  /* Vacansee Design System — Light Theme Tokens */
+  --bg-main: #FAFAF7;
+  --bg-primary: #FAFAF7;
+  --bg-card: #FFFFFF;
+  --bg-secondary: #F3F2ED;
+  --bg-elevated: #FFFFFF;
+  --bg-subtle: #F7EBDD;
+  --bg-muted: #EBEBE3;
+  --bg-hover: #F3F2ED;
+
+  /* Typography Colors */
+  --text-primary: #252821;
+  --text-secondary: #62665E;
+  --text-muted: #85877F;
+  --text-light: #A5A8A0;
+  --text-inverse: #FFFFFF;
+
+  /* Borders */
+  --border-subtle: #EBEBE3;
+  --border-medium: #E5E5DD;
+  --border-strong: #CFCFC5;
+  --border-focus: #B87932;
+
+  /* Primary Brand Accent: Amber */
+  --accent-primary: #B87932;
+  --accent-primary-hover: #966025;
+  --accent-primary-active: #7A4D1C;
+  --accent-primary-subtle: #F7EBDD;
+  --accent-primary-border: rgba(184, 121, 50, 0.35);
+  --primary: #B87932;
+  --primary-hover: #966025;
+  --primary-active: #7A4D1C;
+  --primary-light: #F7EBDD;
+  --primary-border: rgba(184, 121, 50, 0.35);
+
+  /* Recommendation Accent: Violet */
+  --accent-recommendation: #6941C6;
+  --accent-recommendation-hover: #53389E;
+  --accent-recommendation-subtle: rgba(105, 65, 198, 0.10);
+  --accent-recommendation-border: rgba(105, 65, 198, 0.28);
+
+  /* Information Accent: Blue */
+  --accent-info: #1769AA;
+  --accent-info-hover: #0D47A1;
+  --accent-info-subtle: rgba(23, 105, 170, 0.10);
+  --accent-info-border: rgba(23, 105, 170, 0.25);
+
+  /* Success / Status Colors */
+  --status-success: #216E43;
+  --status-success-bg: rgba(33, 110, 67, 0.10);
+  --status-success-border: rgba(33, 110, 67, 0.25);
+  --accent-secondary: #216E43;
+  --accent-secondary-subtle: rgba(33, 110, 67, 0.10);
+  --accent-secondary-border: rgba(33, 110, 67, 0.25);
+
+  --status-error: #B42318;
+  --status-error-bg: rgba(180, 35, 24, 0.10);
+  --status-error-border: rgba(180, 35, 24, 0.25);
+
+  /* Application Status Semantic Colors */
+  --status-applied-bg: rgba(98, 102, 94, 0.08);
+  --status-applied-text: #62665E;
+  --status-applied-border: rgba(98, 102, 94, 0.22);
+
+  --status-reviewing-bg: #F7EBDD;
+  --status-reviewing-text: #966025;
+  --status-reviewing-border: rgba(184, 121, 50, 0.35);
+
+  --status-shortlisted-bg: rgba(105, 65, 198, 0.10);
+  --status-shortlisted-text: #6941C6;
+  --status-shortlisted-border: rgba(105, 65, 198, 0.30);
+
+  --status-hired-bg: rgba(33, 110, 67, 0.10);
+  --status-hired-text: #216E43;
+  --status-hired-border: rgba(33, 110, 67, 0.30);
+
+  --status-rejected-bg: rgba(180, 35, 24, 0.10);
+  --status-rejected-text: #B42318;
+  --status-rejected-border: rgba(180, 35, 24, 0.28);
+
+  /* Typography Families */
+  --font-display: 'Manrope', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-telugu: 'Noto Sans Telugu', system-ui, sans-serif;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(37, 40, 33, 0.04);
+  --shadow-sm: 0 1px 3px rgba(37, 40, 33, 0.06), 0 1px 2px rgba(37, 40, 33, 0.04);
+  --shadow-md: 0 4px 12px rgba(37, 40, 33, 0.06);
+  --shadow-lg: 0 10px 24px rgba(37, 40, 33, 0.08);
+  --shadow-xl: 0 18px 36px rgba(37, 40, 33, 0.10);
+
+  /* Border Radii */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* Layout Spacing */
+  --nav-height: 64px;
+  --container-max: 1180px;
+  --container-wide: 1280px;
+
+  /* Transitions */
+  --transition-fast: 140ms ease;
+  --transition-normal: 220ms ease;
+}
+
